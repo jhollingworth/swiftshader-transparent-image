@@ -1,0 +1,8 @@
+{
+	"name": "swiftshader-transparent-image",
+	"version": "0.0.0",
+	"private": true,
+	"dependencies": {
+		"puppeteer": "^1.0.0-rc"
+	}
+}

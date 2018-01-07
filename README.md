@@ -1,21 +1,18 @@
 # Swiftshader Image transparency bug
 
-This issue demonstrates a bug I'm seeing when rendering WebGL with [Swiftshader](https://github.com/google/swiftshader/).
+This issue demonstrates a bug I'm seeing when rendering WebGL with [Swiftshader](https://github.com/google/swiftshader/) in headless mode.
 
 ## Steps to reproduce
 
-On Linux, run `make` and then open `chrome --no-gpu http://localhost:9000`
+On Linux (Tested on Cent OS 7) run these two commands 
 
-## Current behaviour
+* `node screenshot.js --headless=true` 
+* `xvfb-run --server-args='-screen 0 1500x1500x16' node screenshot.js --headless=false`
 
-In the transparent regions of the overlayed image, you see nothing (i.e. transparent).
+Looking at headless.png you will see transparent regions:
 
 ![current-behavior](images/current-behaviour.png)
 
-## Expected behaviour
-
-In the transparent regions of the overlayed image, you see the image behind
+When you look at xvfb.png you will see the underlying color in the transparent regions.
 
 ![expected-behavior](images/expected-behaviour.png)
-
-_Rendered on Chrome 63_
