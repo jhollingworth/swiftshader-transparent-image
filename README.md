@@ -4,7 +4,9 @@ This issue demonstrates a bug I'm seeing when rendering WebGL with [Swiftshader]
 
 ## Steps to reproduce
 
-On Linux, run `make` and then open `chrome --no-gpu http://localhost:9000`
+On Linux run `chrome --no-gpu`
+
+And then either go to `https://jhollingworth.github.io/swiftshader-transparent-image/index.html` OR run `make` and then go to `http://localhost:8000`
 
 ## Current behaviour
 
