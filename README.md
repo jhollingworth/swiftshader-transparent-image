@@ -16,6 +16,6 @@ In the transparent regions of the overlayed image, you see nothing (i.e. transpa
 
 In the transparent regions of the overlayed image, you see the image behind
 
-![current-behavior](images/current-behaviour.png)
+![expected-behavior](images/expected-behaviour.png)
 
 _Rendered on Chrome 63_
