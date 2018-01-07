@@ -2,6 +2,8 @@
 
 This issue demonstrates a bug I'm seeing when rendering WebGL with [Swiftshader](https://github.com/google/swiftshader/) in headless mode.
 
+[Demo](https://jhollingworth.github.io/swiftshader-transparent-image/index.html)
+
 ## Steps to reproduce
 
 On Linux (Tested on Cent OS 7) run these two commands 
