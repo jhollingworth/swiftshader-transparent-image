@@ -1,8 +1,8 @@
-# Swiftshader Image transparency bug
+# Swiftshader Image transparency bug
 
 This issue demonstrates a bug I'm seeing when rendering WebGL with [Swiftshader](https://github.com/google/swiftshader/).
 
-## Steps to reproduce
+## Steps to reproduce
 
 On Linux, run `make` and then open `chrome --no-gpu http://localhost:9000`
 
